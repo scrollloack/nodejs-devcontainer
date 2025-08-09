@@ -26,6 +26,14 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
       },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
       "prettier": {
         "configPath": ".devcontainer/prettierrc.yaml"
       },
@@ -61,5 +69,6 @@
   // Configure tool-specific properties.
   // "customizations": {},
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "postStartCommand": "git config --global --add safe.directory /workspaces/${localWorkspaceFolderBasename}",
   "remoteUser": "node"
 }
