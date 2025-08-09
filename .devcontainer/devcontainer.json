@@ -16,7 +16,8 @@
         "2gua.rainbow-brackets",
         "oderwat.indent-rainbow",
         "github.copilot",
-        "shahilkumar.docxreader"
+        "shahilkumar.docxreader",
+        "ritwickdey.liveserver"
       ]
     },
     "settings": {
@@ -62,4 +63,3 @@
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   "remoteUser": "node"
 }
-
