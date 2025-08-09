@@ -7,6 +7,8 @@
     "vscode": {
       "extensions": [
         "wallabyjs.wallaby-extension-pack",
+        "xabikos.javascriptsnippets",
+        "chakrounanas.turbo-console-log",
         "eamodio.gitlens",
         "stripe.endsmart",
         "esbenp.prettier-vscode",
