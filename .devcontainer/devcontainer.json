@@ -12,16 +12,21 @@
         "eamodio.gitlens",
         "stripe.endsmart",
         "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
         "streetsidesoftware.code-spell-checker",
         "2gua.rainbow-brackets",
         "oderwat.indent-rainbow",
         "github.copilot",
         "shahilkumar.docxreader",
-        "ritwickdey.liveserver"
+        "ritwickdey.liveserver",
+        "formulahendry.code-runner"
       ]
     },
     "settings": {
       "files.eol": "\n",
+      "prettier": {
+        "configPath": ".devcontainer/prettierrc.yml"
+      },
       "[yaml, yml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
@@ -34,12 +39,10 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
       },
-      "prettier": {
-        "configPath": ".devcontainer/prettierrc.yaml"
-      },
       "cSpell.enableFiletypes": [
         "slim",
         "javascript",
+        "typescript",
         "html",
         "css"
       ],
