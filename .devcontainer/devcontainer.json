@@ -6,6 +6,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "wallabyjs.wallaby-extension-pack",
         "eamodio.gitlens",
         "stripe.endsmart",
         "esbenp.prettier-vscode",
