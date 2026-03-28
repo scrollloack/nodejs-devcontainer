@@ -9,6 +9,8 @@
         "wallabyjs.wallaby-extension-pack",
         "xabikos.javascriptsnippets",
         "chakrounanas.turbo-console-log",
+        "christian-kohler.path-intellisense",
+        "jakob101.relativepath",
         "eamodio.gitlens",
         "stripe.endsmart",
         "esbenp.prettier-vscode",
